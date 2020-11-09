@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
-<img src="images/breakdownschets1.png" width="375px" alt="breakdownschets">
+<img src="images/breakdownschetsmoco.png" width="375px" alt="breakdownschets">
 
 
 ## Intake (week 1)
@@ -72,14 +72,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Blauw
 
-**Je focus:** Surface plane
+**Je focus:** Responsive
 
-**Je opdracht:** Naam van eigen ontwerp: 538 Halloweenweek (app die ik ontworpen had voor informatiearchitectuur)
+**Je opdracht:** mocomuseum.nl
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/stempagina.png" width="375px" alt="screenshot van stem-pagina">
+<img src="images/expositiespagina.png" width="375px" alt="screenshot van stem-pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/eventpagina.png" width="375px" alt="screenshot van event-pagina">
+<img src="images/detailpagina.png" width="375px" alt="screenshot van event-pagina">
