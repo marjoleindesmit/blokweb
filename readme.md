@@ -31,7 +31,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+dit ging goed: 
+
+dit was lastig: 
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
 
 
 
@@ -39,11 +45,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+dit ging goed: de codepen opdracht met css (typografie)
 
-**Screenshot(s):**
+dit was lastig: de breakdownschets
+
+<img src="images/cssweek1.png" width="375px" alt="breakdownschets">
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+( Ik ben nog niet begonnen aan de eindopdracht deze week )
 
 ### Agenda voor meeting
 
