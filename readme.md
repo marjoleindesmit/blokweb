@@ -18,7 +18,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
-<img src="images/cssweek4.png" width="375px" alt="">
+
 
 -screenshot(s) van je eindresultaat-
 
@@ -38,7 +38,7 @@ dit ging goed: de codepen opdracht met css, breakdownschets verbeteren
 
 dit was lastig: de opdrachten op tijd afkrijgen
 
-<img src="images/cssweek2.png" width="375px" alt="">
+
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 ( Ik ben nog niet begonnen aan de eindopdracht deze week )
@@ -52,7 +52,7 @@ dit ging goed: de codepen opdracht met css (typografie)
 
 dit was lastig: de breakdownschets
 
-<img src="images/cssweek1.png" width="375px" alt="">
+
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 ( Ik ben nog niet begonnen aan de eindopdracht deze week )
