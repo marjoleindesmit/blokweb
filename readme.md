@@ -26,36 +26,36 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
-dit ging goed: breakdownschets verbeteren
+dit ging goed: 
 
-dit was lastig: door tekort aan tijd heb ik deze week niet veel kunnen doen aan dit vak.
+dit was lastig: 
 
-
+**Screenshot(s):**
+-screenshot(s) van hoe ver je bent met korte uitleg-
 
 ## Voortgang 2 (week 5)
 
-dit ging goed: de codepen opdracht met css, breakdownschets verbeteren
-
-dit was lastig: de opdrachten op tijd afkrijgen
-
+dit ging goed:
+dit was lastig:
 
 
+**Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
-( Ik ben nog niet begonnen aan de eindopdracht deze week )
+
 
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
-dit ging goed: de codepen opdracht met css (typografie)
+dit ging goed: 
 
-dit was lastig: de breakdownschets
+dit was lastig: 
 
 
-
+**Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
-( Ik ben nog niet begonnen aan de eindopdracht deze week )
+
 
 ### Agenda voor meeting
 
