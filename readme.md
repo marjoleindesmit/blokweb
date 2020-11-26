@@ -48,14 +48,19 @@ dit was lastig:
 
 ### Stand van zaken
 
-dit ging goed: 
+dit ging goed: html structuur opmaken, basis css
 
-dit was lastig: 
+dit was lastig: het maken van de header met css
 
 
-**Screenshot(s):**
+**Screenshot(s):
+
+<img src="images/voortgang1scherm1.png" width="375px" alt="breakdownschets">
+<img src="images/voortgang1scherm2.png" width="375px" alt="breakdownschets">
+
+
 -screenshot(s) van hoe ver je bent met korte uitleg-
-
+Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. 
 
 ### Agenda voor meeting
 
