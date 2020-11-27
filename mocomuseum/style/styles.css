@@ -1,0 +1,107 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line height html 1.5, line height p content 1.3*/
+
+body {
+  background-color: #ff81cb;
+font-family:  "Futura Std",sans-serif;
+
+
+}
+
+header {
+  position: sticky;
+  background-color: white;
+
+}
+
+main {
+  margin: 8%
+
+}
+
+ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+img.expoimg {
+  max-width: 100%;
+}
+
+img.logo {
+  position: absolute;
+  width: 15%;
+  margin: 0 auto;
+
+}
+
+
+a.home {
+  cursor: pointer;
+transition: 0.5s;
+}
+
+a.home:hover {
+  opacity: 0.7;
+}
+
+a.readmore {
+  color: black;
+}
+
+a.mocomuseum {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+div.roundbuttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+a.roundbuttontickets {
+  background-color: white;
+  padding: 3rem; /*??????*/
+  color: black;
+
+}
+
+a.roundbuttonshop {
+background-color: black;
+padding: 3rem;
+color: white;
+
+}
+
+ul.languages {
+  /*display: flex*/
+
+}
+
+h2 {
+  color: white;
+  font-family: "CaslonGraphiqueEF", sans-serif;
+}
+
+h3 {
+  color: white;
+}
+p {
+  color: white;
+}
