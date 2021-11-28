@@ -42,7 +42,7 @@ https://marjoleindesmit.github.io/blokweb/
 <img src="images/detailpagina.png" width="375px" alt="screenshot van event-pagina">
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 1)
 
 ### Stand van zaken
 
@@ -53,12 +53,27 @@ dit was lastig: het maken van de header met css
 
 **Screenshot(s):
 
-<img src="images/voortgang1scherm1.png" width="375px" alt="breakdownschets">
-<img src="images/voortgang1scherm2.png" width="375px" alt="breakdownschets">
+<img src="images/voortgang1scherm1.png" width="375px" alt="voortgang">
+<img src="images/voortgang1scherm2.png" width="375px" alt="voortgang">
 
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. 
+
+## Voortgang 2 (week 2)
+
+dit ging goed: flexbox gebruiken om elementen te centreren.
+
+dit was lastig: de juiste font family laten werken in css, omdat ik deze via een zip bestandje moest downloaden. ik moest hiervoor @font-face gebruiken. 
+
+**Screenshot(s):**
+-screenshot(s) van hoe ver je bent met korte uitleg-
+Ik ben nog wat verder gekomen met de html op maak, hier mis ik alleen nog een paar kleine details. Ook ben ik een stuk verder gekomen met mijn CSS.
+
+<img src="images/voortgang2scherm1.png" width="375px" alt="voortgang">
+<img src="images/voortgang2scherm2.png" width="375px" alt="voortgang">
+
+
 
 ### Agenda voor meeting
 
@@ -74,7 +89,7 @@ Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen 
 
 -na afloop snel uitkomsten vastleggen-
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 2)
 
 dit ging goed: 
 
