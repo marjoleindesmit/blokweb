@@ -12,9 +12,10 @@ https://marjoleindesmit.github.io/blokweb/
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://fontsgeek.com/fonts/CaslonGraphiqueEF-Regular
+2. https://css-tricks.com/snippets/css/using-font-face/
+3. https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 ## Breakdownschets (week 1)
@@ -41,7 +42,7 @@ https://marjoleindesmit.github.io/blokweb/
 <img src="images/detailpagina.png" width="375px" alt="screenshot van event-pagina">
 
 
-## Voortgang 1 (week 3)
+## Voortgang 1 (week 2)
 
 ### Stand van zaken
 
@@ -73,7 +74,7 @@ Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen 
 
 -na afloop snel uitkomsten vastleggen-
 
-## Voortgang 2 (week 5)
+## Voortgang 2 (week 3)
 
 dit ging goed: 
 
