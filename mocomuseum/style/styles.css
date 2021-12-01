@@ -21,7 +21,7 @@ body {
 }
 
 /*
-------------- header ------------
+------------- alles wat binnen de header staat ------------
  */
 
 header {
@@ -31,25 +31,98 @@ header {
   font-size: 12px;
 }
 
+/* logo + animatie */
+img.logo {
+  width: 65px;
+  margin: 0 auto;
+  /* margin-top: 10px; */
+}
+
+a.home {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+a.home:hover {
+  opacity: 0.7;
+}
+/* EINDE logo + animatie */
+
 div.topheader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-button.hamburger {
-  background: none;
-  border: none;
-}
+/* ----------- HAMBURGER MENU ------------- */
+ /* BRONNEN
+ https://www.youtube.com/watch?v=dIyVTjJAkLw */
 
-img.hamburger {
+div.hamburger {
+  position: relative;
   width: 23px;
   height: 17px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main {
-  margin: 8%;
+div.hamburgerMenu {
+  width: 23px;
+  height: 1px;
+  background: #ff81cb;
+  transition: all 0.5s ease;
 }
+
+div.hamburgerMenu::before, div.hamburgerMenu::after {
+  content: " ";
+  position: absolute;
+  width: 23px;
+  height: 1px;
+  background: #ff81cb;
+  transition: all 0.5s ease;
+}
+
+div.hamburgerMenu::before {
+  transform: translateY(-8px);
+}
+
+div.hamburgerMenu::after {
+  transform: translateY(8px);
+}
+
+.navOpen .hamburgerMenu {
+  background: transparent;
+}
+/* zodat de middelste lijn verdwijnt */
+
+.navOpen .hamburgerMenu::before {
+  transform: rotate(45deg);
+}
+/* zodat het bovenste lijntje draait */
+
+.hamburger.navOpen .hamburgerMenu::after {
+  transform: rotate(-45deg) ;
+}
+
+
+/* HAMBURGER MENU  EINDE  */
+
+/* button.hamburger {
+  background: none;
+  border: none;
+} */
+/*
+img.hamburgerMenu, img.hamburgerClicked {
+  width: 17px;
+  height: 17px;
+  margin-right: 20px;
+} */
 
 div.invisible {
   opacity: 0;
@@ -57,7 +130,9 @@ div.invisible {
   margin-left: 20px;
 }
 
-/*  */
+/*
+MENU VORMGEVING (keuzemenu, taal kiezen)
+*/
 
 ul {
   text-align: center;
@@ -108,6 +183,18 @@ a.currentLang {
   font-weight: bold;
 }
 
+/*
+------------- alles wat in de main staat ------------
+ */
+
+main {
+  margin: 8%;
+}
+
+/*
+AFBEELDINGEN
+*/
+
 img.expoimg {
   max-width: 100%;
   margin: 10px 0px;
@@ -118,30 +205,9 @@ img.headerimg {
   margin: 10px 0px;
 }
 
-img.logo {
-  width: 65px;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-a.home {
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-a.home:hover {
-  opacity: 0.7;
-}
-
 a.readmore {
   color: black;
   margin: 0 auto;
-  font-weight: bold;
-}
-
-a.mocomuseum {
-  color: white;
-  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -168,7 +234,7 @@ a.roundbuttontickets {
 
 div.roundbuttontickets {
   background-color: white;
-  padding: 8vw;
+  padding: 8vw;  /* verander de eenheid */
   display: flex;
   border-radius: 50%;
   z-index: 20;
@@ -187,6 +253,7 @@ a.roundbuttonshop {
 div.roundbuttonshop {
   background-color: black;
   padding: 6vw;
+  /* verander de eenheid */
   margin: 3vw 0vw 0vw 0vw;
   display: flex;
   align-items: center;
