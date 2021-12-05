@@ -17,6 +17,7 @@ https://marjoleindesmit.github.io/blokweb/
 3. https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. https://www.youtube.com/watch?v=dIyVTjJAkLw (hamburger menu)
+6. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
 
 
 ## Breakdownschets (week 1)

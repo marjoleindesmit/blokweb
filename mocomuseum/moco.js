@@ -14,3 +14,4 @@ hamburgerMenu.addEventListener("click", navMob);
 
 // BRONNEN
 // https://www.youtube.com/watch?v=dIyVTjJAkLw
+// https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
