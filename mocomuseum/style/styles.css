@@ -124,7 +124,7 @@ div.invisible {
 }
 
 /*
-MENU'S (keuzemenu, taal kiezen)
+MENU'S (keuzemenu, taal kiezen,)
 */
 ul {
   text-align: center;
@@ -177,7 +177,7 @@ a.currentLang {
 
 /*
 EINDE
-MENU'S (keuzemenu, taal kiezen)
+MENU'S (keuzemenu, taal kiezen,)
 */
 /*
 ------------- alles wat in de main staat ------------
@@ -318,3 +318,5 @@ article {
 section.thekidinfo {
   max-width: 350px;
 }
+
+/* ------------- alles wat in de footer staat ------------ */
