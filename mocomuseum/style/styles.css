@@ -1,19 +1,18 @@
 /*
 ------------- algemeen -----------
 */
-
 /* line height html 1.5, line height p content 1.3*/
 @font-face {
   src: url(../fonts/CaslonGraphiqueEFRegular.ttf);
   font-family: CaslonGraphiqueEF;
 }
+/* BRONNEN: https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp */
 
 *, html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 
 body {
   background-color: #ff81cb;
@@ -23,7 +22,6 @@ body {
 /*
 ------------- alles wat binnen de header staat ------------
  */
-
 header {
   position: sticky;
   background-color: white;
@@ -46,8 +44,9 @@ a.home {
 a.home:hover {
   opacity: 0.7;
 }
-/* EINDE logo + animatie */
 
+/* EINDE logo + animatie */
+/* het gedeelte met het logo en het hamburger menu */
 div.topheader {
   display: flex;
   justify-content: space-between;
@@ -55,16 +54,17 @@ div.topheader {
   padding: 10px 20px;
 }
 
-/* ----------- HAMBURGER MENU ------------- */
- /* BRONNEN
- https://www.youtube.com/watch?v=dIyVTjJAkLw */
+/*
+HAMBURGER MENU
+*/
 
+/* BRONNEN: https://www.youtube.com/watch?v=dIyVTjJAkLw
+https://www.youtube.com/watch?v=zGiirUiWslI
+*/
 div.hamburger {
   position: relative;
   width: 23px;
   height: 17px;
-  /* margin-right: 20px; */
-
   cursor: pointer;
   transition: all 0.5s ease;
   display: flex;
@@ -99,31 +99,24 @@ div.hamburgerMenu::after {
 .navOpen .hamburgerMenu {
   background: transparent;
 }
-/* zodat de middelste lijn verdwijnt */
 
+/* zodat de middelste lijn verdwijnt */
 .navOpen .hamburgerMenu::before {
   transform: rotate(45deg);
 }
-/* zodat het bovenste lijntje draait */
 
+/* zodat het bovenste lijntje draait */
 .hamburger.navOpen .hamburgerMenu::after {
-  transform: rotate(-45deg) ;
+  transform: rotate(-45deg);
 }
 
-
-/* HAMBURGER MENU  EINDE  */
-
-/* button.hamburger {
-  background: none;
-  border: none;
-} */
+/* zodat het onderste lijntje draait */
 /*
-img.hamburgerMenu, img.hamburgerClicked {
-  width: 17px;
-  height: 17px;
-  margin-right: 20px;
-} */
+ HAMBURGER MENU  EINDE
+*/
 
+/* zodat ik met flexbox het logo kon centreren en het hamburger menu
+aan de rechterkant had. dit is een onzichtbaar element aan de linkerkant */
 div.invisible {
   opacity: 0;
   width: 23px;
@@ -131,9 +124,8 @@ div.invisible {
 }
 
 /*
-MENU VORMGEVING (keuzemenu, taal kiezen)
+MENU'S (keuzemenu, taal kiezen)
 */
-
 ul {
   text-align: center;
   margin: 0 auto;
@@ -184,9 +176,12 @@ a.currentLang {
 }
 
 /*
+EINDE
+MENU'S (keuzemenu, taal kiezen)
+*/
+/*
 ------------- alles wat in de main staat ------------
- */
-
+*/
 main {
   margin: 8%;
 }
@@ -194,7 +189,6 @@ main {
 /*
 AFBEELDINGEN
 */
-
 img.expoimg {
   max-width: 100%;
   margin: 10px 0px;
@@ -205,18 +199,13 @@ img.headerimg {
   margin: 10px 0px;
 }
 
-a.readmore {
-  color: black;
-  margin: 0 auto;
-  font-weight: bold;
-}
-
-section.expositieOverzicht {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/*
+EINDE
+AFBEELDINGEN
+*/
+/*
+SHOP en KOOP NU TICKETS knoppen
+*/
 div.roundbuttons {
   position: fixed;
   right: 0;
@@ -234,7 +223,8 @@ a.roundbuttontickets {
 
 div.roundbuttontickets {
   background-color: white;
-  padding: 8vw;  /* verander de eenheid */
+  padding: 8vw;
+  /* verander de eenheid nog !!!? */
   display: flex;
   border-radius: 50%;
   z-index: 20;
@@ -253,7 +243,7 @@ a.roundbuttonshop {
 div.roundbuttonshop {
   background-color: black;
   padding: 6vw;
-  /* verander de eenheid */
+  /* verander de eenheid ??! */
   margin: 3vw 0vw 0vw 0vw;
   display: flex;
   align-items: center;
@@ -261,15 +251,19 @@ div.roundbuttonshop {
   z-index: 10;
 }
 
-ul.languages {
-  /*display: flex*/
-}
-
+/*
+EINDE
+SHOP en KOOP NU TICKETS knoppen
+*/
 h1.hidden {
   visibility: hidden;
   height: 0.1px;
 }
 
+/* voor de onzichtbare H1 is in exposities.html maar het wel zo netjes is om er een te hebben */
+/*
+HEADINGS
+*/
 h1 {
   color: white;
   font-family: CaslonGraphiqueEF, serif;
@@ -279,8 +273,6 @@ h1 {
 h2 {
   color: white;
   font-family: CaslonGraphiqueEF, serif;
-  /* dit font lijkt erop maar werkt niet ???
-  kan ik een zip downloaded font ook gebruiken? */
   text-align: center;
   font-size: 30px;
   font-weight: 400;
@@ -293,10 +285,26 @@ h3, h4 {
   font-size: 16px;
 }
 
+/*
+EINDE
+HEADINGS
+*/
 p {
   color: white;
   font-size: 18px;
   line-height: 1.3;
+}
+
+a.readmore {
+  color: black;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+section.expositieOverzicht {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {

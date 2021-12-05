@@ -16,6 +16,7 @@ https://marjoleindesmit.github.io/blokweb/
 2. https://css-tricks.com/snippets/css/using-font-face/
 3. https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. https://www.youtube.com/watch?v=dIyVTjJAkLw (hamburger menu)
 
 
 ## Breakdownschets (week 1)
@@ -58,13 +59,13 @@ dit was lastig: het maken van de header met css
 
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
-Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. 
+Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. Het scheelt dat ik vorig jaar al een begin had gemaakt aan de code.
 
 ## Voortgang 2 (week 2)
 
 dit ging goed: flexbox gebruiken om elementen te centreren.
 
-dit was lastig: de juiste font family laten werken in css, omdat ik deze via een zip bestandje moest downloaden. ik moest hiervoor @font-face gebruiken. 
+dit was lastig: de juiste font family laten werken in css, omdat ik deze via een zip bestandje moest downloaden. ik moest hiervoor @font-face gebruiken. Ook vond ik het hamburger menu lastig, ik heb tot nu toe alleen nog de animatie van het icoontje. Maar door veel op te zoeken en hulp te vragen aan mensen die goed kunnen coderen ben ik er uit gekomen. Nu moet ik er nog voor zorgen dat er een overlay komt wanneer het hamburgermenu aangeklikt is.
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
@@ -73,6 +74,18 @@ Ik ben nog wat verder gekomen met de html op maak, hier mis ik alleen nog een pa
 <img src="images/voortgang2scherm1.png" width="375px" alt="voortgang">
 <img src="images/voortgang2scherm2.png" width="375px" alt="voortgang">
 
+
+## Voortgang 3 (week 3)
+
+Ontvangen feedback tijdens feedbackgesprek:
+
+dit ging goed:
+
+dit was lastig:
+
+Screenshots:
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
 
 
 ### Agenda voor meeting
