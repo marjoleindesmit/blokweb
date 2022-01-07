@@ -18,6 +18,9 @@ https://marjoleindesmit.github.io/blokweb/
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. https://www.youtube.com/watch?v=dIyVTjJAkLw (hamburger menu)
 6. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+7. https://fontawesome.com/v4.7/icon/facebook en https://fontawesome.com/v4.7/icon/twitter en https://fontawesome.com/v4.7/icon/instagram voor social media icoontjes
+8. https://css-tricks.com/a-complete-guide-to-css-media-queries/
+9. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl
 
 
 ## Breakdownschets (week 1)
@@ -62,7 +65,7 @@ dit was lastig: het maken van de header met css
 -screenshot(s) van hoe ver je bent met korte uitleg-
 Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. Het scheelt dat ik vorig jaar al een begin had gemaakt aan de code.
 
-## Voortgang 2 (week 2)
+## Voortgang 2 (week 2 en 3)
 
 dit ging goed: flexbox gebruiken om elementen te centreren.
 
@@ -76,77 +79,33 @@ Ik ben nog wat verder gekomen met de html op maak, hier mis ik alleen nog een pa
 <img src="images/voortgang2scherm2.png" width="375px" alt="voortgang">
 
 
-## Voortgang 3 (week 3)
+## Voortgang 3 (week 4)
 
 Ontvangen feedback tijdens feedbackgesprek:
+Ik heb feedback ontvangen over de dingen waar ik vragen over had, zoals het vormgeven van de buttons rechtsonder, welke eenheden ik het beste kan gebruiken, waar ik mediaqueries moet gaan gebruiken, en een aantal algemene tips. Ik kan bijvoorbeeld beter min-width gebruiken, ik heb nu steeds max-width gebruikt. Verder was ik 'al goed op weg', dus dat was fijn om te horen.
 
-dit ging goed:
+dit ging goed: een probleem wat ik had met flexbox op te lossen, na feedback van de docent 
+dit was lastig: vormgeven van de buttons rechtsonder
 
+
+
+
+## Voortgang 4 (week 5)
+
+Ik ben er deze week ook niet aan toe gekomen om verder te werken aan mijn code.
+
+## Voortgang 5 (week 6)
+
+dit ging goed: werken met mediaqueries om foto's en tekst responsive te maken, 
 dit was lastig:
 
-Screenshots:
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
-## Voortgang 2 (week 2)
-
-dit ging goed: 
-
-dit was lastig: 
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-## Toegankelijkheidstest (week 4)
-
-<details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-
-## Voortgang 3 (week 6)
+## Voortgang 6 (week )
 
 dit ging goed:
 dit was lastig:
