@@ -102,9 +102,12 @@ dit was lastig: verder gaan met JavaScript, vormgeving van iframe element, respo
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
+Ik moet nu vooral de laatste details nog doen: bijv. een laatste beetje javascripts zodat de interactie met het hamburger menu werkt en alles responsive laten werken
 
 <img src="images/voortgang3scherm1.png" width="375px" alt="voortgang">
 <img src="images/voortgang3scherm2.png" width="375px" alt="voortgang">
+
+
 
 
 ## Voortgang 6 (10 jan - 16 jan)
