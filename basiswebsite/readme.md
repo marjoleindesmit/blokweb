@@ -47,7 +47,7 @@ https://marjoleindesmit.github.io/blokweb/
 <img src="images/detailpagina.png" width="375px" alt="screenshot van event-pagina">
 
 
-## Voortgang 1 (week 1)
+## Voortgang 1 (15 nov - 21 nov)
 
 ### Stand van zaken
 
@@ -65,7 +65,7 @@ dit was lastig: het maken van de header met css
 -screenshot(s) van hoe ver je bent met korte uitleg-
 Ik heb nu voor beide webpagina's de html-opmaak zo goed als af, en ben begonnen aan het vormgeven in CSS. Het scheelt dat ik vorig jaar al een begin had gemaakt aan de code.
 
-## Voortgang 2 (week 2 en 3)
+## Voortgang 2 (22 nov - 5 dec)
 
 dit ging goed: flexbox gebruiken om elementen te centreren.
 
@@ -79,7 +79,7 @@ Ik ben nog wat verder gekomen met de html op maak, hier mis ik alleen nog een pa
 <img src="images/voortgang2scherm2.png" width="375px" alt="voortgang">
 
 
-## Voortgang 3 (week 4)
+## Voortgang 3 (6 dec - 12 dec)
 
 Ontvangen feedback tijdens feedbackgesprek:
 Ik heb feedback ontvangen over de dingen waar ik vragen over had, zoals het vormgeven van de buttons rechtsonder, welke eenheden ik het beste kan gebruiken, waar ik mediaqueries moet gaan gebruiken, en een aantal algemene tips. Ik kan bijvoorbeeld beter min-width gebruiken, ik heb nu steeds max-width gebruikt. Verder was ik 'al goed op weg', dus dat was fijn om te horen.
@@ -90,29 +90,27 @@ dit was lastig: vormgeven van de buttons rechtsonder
 
 
 
-## Voortgang 4 (week 5)
+## Voortgang 4 (13 dec - 19 dec)
 
-Ik ben er deze week ook niet aan toe gekomen om verder te werken aan mijn code.
+Ik ben er deze week niet aan toe gekomen om verder te werken aan mijn code.
 
-## Voortgang 5 (week 6)
+## Voortgang 5 (20 dec - 24 dec + kerstvakantie)
 
-dit ging goed: werken met mediaqueries om foto's en tekst responsive te maken, 
-dit was lastig:
+dit ging goed: werken met mediaqueries om de teksten en foto's responsive te maken, een overlaymenu maken in CSS, 
+dit was lastig: verder gaan met JavaScript, vormgeving van iframe element, responsive maken van specifiek de header
 
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
+<img src="images/voortgang3scherm1.png" width="375px" alt="voortgang">
+<img src="images/voortgang3scherm2.png" width="375px" alt="voortgang">
 
 
-## Voortgang 6 (week )
+## Voortgang 6 (10 jan - 16 jan)
 
 dit ging goed:
 dit was lastig:
-
-
-**Screenshot(s):**
--screenshot(s) van hoe ver je bent met korte uitleg-
 
 
 
