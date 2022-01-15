@@ -1,12 +1,10 @@
 var hamburgerMenu = document.querySelector(".hamburger");
-
-
-console.log("Test test test");
-
-
+var mainMenu = document.querySelector(".menu");
 
 function navMob() {
   hamburgerMenu.classList.toggle("navOpen");
+  // mainMenu.classList.remove("menu"); werkt niet???
+  // mainMenu.classlist.add("menuOverlay"); ??????
 }
 
 hamburgerMenu.addEventListener("click", navMob);
