@@ -1,0 +1,777 @@
+/*
+------------- algemeen -----------
+*/
+/* line height html 1.5, line height p content 1.3*/
+@font-face {
+  src: url(../fonts/CaslonGraphiqueEFRegular.ttf);
+  font-family: CaslonGraphiqueEF;
+}
+
+/* BRONNEN: https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp */
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #ff81cb;
+  font-family: "Futura Std", sans-serif;
+}
+
+/*
+-----------------------------------------------------------
+-----------------------------------------------------------
+------------- alles wat binnen de header staat ------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+ */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+logo + animatie
+ */
+img.logo {
+  width: 4em;
+  margin: 0 auto;
+}
+
+a.home {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+a.home:hover {
+  opacity: 0.7;
+}
+
+/*
+EINDE logo + animatie
+*/
+
+
+/* vormgeving het gedeelte met het logo en het hamburger menu */
+div.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6em 1.25em;
+}
+
+
+/*
+HAMBURGER MENU
+*/
+
+div.hamburger {
+  position: relative;
+  width: 1.44em;
+  height: 1.06em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.hamburgerMenu {
+  width: 1.44em;
+  height: 0.0625em;
+  background: #ff81cb;
+  transition: all 0.5s ease;
+}
+
+div.hamburgerMenu::before, div.hamburgerMenu::after {
+  content: " ";
+  position: absolute;
+  width: 1.44em;
+  height: 0.0625em;
+  background: #ff81cb;
+  transition: all 0.5s ease;
+}
+
+div.hamburgerMenu::before {
+  transform: translateY(-0.5em);
+}
+
+div.hamburgerMenu::after {
+  transform: translateY(0.5em);
+}
+
+/* vormgeving voor het kruisje, wanneer hamburger aangeklikt is */
+.navOpen .hamburgerMenu {
+  background: transparent;
+}
+
+.navOpen .hamburgerMenu::before {
+  transform: rotate(45deg);
+}
+
+.hamburger.navOpen .hamburgerMenu::after {
+  transform: rotate(-45deg);
+}
+
+
+/* BRONNEN: https://www.youtube.com/watch?v=dIyVTjJAkLw
+https://www.youtube.com/watch?v=zGiirUiWslI
+*/
+
+/*
+ HAMBURGER MENU  EINDE
+*/
+
+
+/* zodat ik met flexbox het logo kon centreren en het hamburger menu
+aan de rechterkant had. dit is een onzichtbaar element aan de linkerkant */
+div.invisible {
+  opacity: 0;
+  width: 1.44em;
+  margin-left: 1.25em;
+}
+
+/*
+MENU'S (keuzemenu, taal kiezen,)
+*/
+ul {
+  text-align: center;
+  margin: 0 auto;
+  border-top: 1px solid #f5f5f5;
+  padding: 0.75em 0em;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.0625em;
+}
+
+div.menu ul {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.menu ul li {
+  flex-direction: column;
+  margin-left: 1.25em;
+}
+
+div.menu ul li a {
+  color: #000;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+ul.languages li a {
+  font-size: 0.75em;
+}
+
+a.menuCurrent {
+  border-bottom: 0.125em solid #ff81cb;
+}
+
+a.currentLang {
+  font-weight: bold;
+}
+
+/*
+EINDE
+MENU'S (keuzemenu, taal kiezen,)
+*/
+
+
+/*
+OVERLAY MENU (HAMBURGER)
+ */
+div.menuOverlay {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  top: 7em;
+}
+
+div.menuOverlay ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  transform: translateY(-7em);
+}
+
+div.menuOverlay ul li {
+  margin-top: 1em;
+}
+
+div.menuOverlay ul li a {
+  color: #ff81cb;
+  font-size: 1em;
+}
+
+/*
+ EINDE
+ OVERLAY MENU (HAMBURGER)
+  */
+
+/*
+-----------------------------------------------------------
+-----------------------------------------------------------
+------------- alles wat in de main staat ------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+*/
+main {
+  margin-top: 7em;
+}
+
+/*
+AFBEELDINGEN
+*/
+img.expoImg {
+  width: 100%;
+  margin: 1em 0em;
+}
+
+img.headerImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* BRONNEN: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl */
+
+/*
+EINDE
+AFBEELDINGEN
+*/
+
+
+/*
+VIDEO
+*/
+iframe {
+  border: 0em;
+  width: 80%;
+  height: 30vh;
+  margin-top: 2em;
+}
+
+/*
+EINDE VIDEO
+ */
+
+
+/*
+SHOP en KOOP NU TICKETS knoppen
+*/
+div.roundButtons {
+  position: relative
+}
+
+a.roundButtonTickets {
+  color: red;
+  font-family: CaslonGraphiqueEF, serif;
+  text-decoration: none;
+  font-size: 1em;
+  width: 4em;
+  text-align: center;
+  transform: translate(-0.5em, -1em);
+}
+
+div.roundButtonTickets {
+  position: fixed;
+  right: 0em;
+  bottom: 0em;
+  background-color: white;
+  width: 9.5em;
+  height: 9.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translate(2em, 3em);
+}
+
+a.roundButtonShop {
+  color: white;
+  font-family: CaslonGraphiqueEF, serif;
+  text-decoration: none;
+  font-size: 1em;
+  transform: translate(-0.3em, -0.2em);
+}
+
+div.roundButtonShop {
+  position: fixed;
+  right: 0em;
+  bottom: 0em;
+  background-color: black;
+  width: 6em;
+  height: 6em;
+  margin: 0.5em 0em 0em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(-6em, 1em);
+}
+
+div.roundButtonTickets, div.roundButtonShop, a.roundButtonShop {
+  transition: 0.5s;
+}
+
+div.roundButtonTickets:hover {
+  background-color: black;
+}
+
+div.roundButtonShop:hover {
+  background-color: white;
+}
+
+div.roundButtonShop:hover a.roundButtonShop {
+  color: black;
+}
+
+/* BRONNEN: https://www.codegrepper.com/code-examples/css/css+hover+change+color+of+another+element */
+
+/*
+EINDE
+SHOP en KOOP NU TICKETS knoppen
+*/
+
+
+/*
+HEADINGS
+*/
+h1.hidden {
+  visibility: hidden;
+  height: 0.00625em;
+}
+
+/* voor de onzichtbare H1 is in exposities.html maar het wel zo netjes is om er een te hebben */
+h1 {
+  color: white;
+  font-family: CaslonGraphiqueEF, serif;
+  font-weight: 400;
+}
+
+h1.theKidHeading {
+  transform: translateY(-3em);
+  font-size: 1.875em;
+  margin: 0em 1em;
+}
+
+h2 {
+  color: white;
+  font-family: CaslonGraphiqueEF, serif;
+  text-align: center;
+  font-size: 1.875em;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  line-height: 1.1;
+}
+
+h2.theFutureIsOld {
+  font-family: "Futura Std", sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  align-self: flex-start;
+}
+
+h3, h4 {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1em;
+  margin: 0em 1em 0.5em 1em;
+}
+
+h3.theKid {
+  align-self: flex-start;
+  text-align: left;
+  margin: 1em 0em 0em 0em;
+  font-size: 1.2em;
+}
+
+/*
+EINDE
+HEADINGS
+*/
+
+
+/*
+VORMGEVING STUKJES TEKST
+*/
+p {
+  color: white;
+  font-size: 1.125em;
+  line-height: 1.3;
+  margin-top: 1em;
+}
+
+a.readMore {
+  color: black;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 3em;
+  transition: 0.5s;
+}
+
+a.readMore:hover {
+  text-decoration: none;
+}
+
+a.theKidTickets {
+  padding: 1em 0.5em;
+  background-color: black;
+  color: #ff81cb;
+  align-self: baseline;
+  font-weight: bold;
+  margin: 1em 0em;
+}
+
+article {
+  padding: 4em 2.5em;
+  margin: 0 auto;
+  display: flex;
+  min-width: 19em;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.theKidInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote, h5 {
+  margin: 0.5em 0em;
+  color: white;
+  text-align: center;
+}
+
+/*
+EINDE
+VORMGEVING STUKJES TEKST
+*/
+
+
+/*
+SOCIAL MEDIA ICONS
+ */
+ul.socialmediaMenu {
+  text-align: center;
+  margin: 0 auto;
+  border-top: none;
+}
+
+ul.socialmediaMenu li {
+  display: inline-block;
+}
+
+ul.socialmediaMenu a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;
+}
+
+ul.socialmediaMenuHome li {
+  display: inline-block;
+}
+
+ul.socialmediaMenuHome a {
+  color: #ff81cb;
+  border: 1px solid #ff81cb;
+  text-decoration: none;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;
+}
+
+/* BRONNEN: https://fontawesome.com/v4.7/icon/facebook
+https://fontawesome.com/v4.7/icon/twitter
+https://fontawesome.com/v4.7/icon/instagram
+ */
+
+/*
+EINDE SOCIAL MEDIA ICONS
+  */
+
+
+/*
+-----------------------------------------------------------
+-----------------------------------------------------------
+-------------- alles wat in de footer staat ---------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+  */
+footer {
+  margin-bottom: 8em;
+}
+
+/*
+navigatie in de footer
+ */
+footer ul {
+  border-top: none;
+}
+
+footer ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+
+/*
+-----------------------------------------------------------
+-----------------------------------------------------------
+-------------- media queries / responsiveness -------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+  */
+
+/*
+BREAKPOINT 1
+ */
+@media (min-width: 0em) {
+  div.menu {
+    display: none;
+  }
+
+  div.menuOverlay ul {
+    border-top: none;
+  }
+}
+
+div.socialmediaHeading {
+  display: none;
+}
+
+
+/*
+BREAKPOINT 2
+ */
+@media (min-width: 40em) {
+  img.expoImg {
+    width: 36em;
+  }
+
+  article {
+    width: 36em;
+    padding: 4em 0em;
+  }
+
+  h1.theKidHeading {
+    font-size: 4.375em;
+    transform: translateY(-2em);
+  }
+}
+
+iframe {
+  height: 40vw;
+}
+
+
+/*
+BREAKPOINT 3
+ */
+@media (min-width: 48em) {
+  main {
+    margin-top: 8em;
+  }
+
+  img.expoImg {
+    width: 38em;
+  }
+
+  article {
+    width: 38em;
+    padding: 4em 0em;
+  }
+
+  h2 {
+    font-size: 4.375em;
+  }
+
+  h3 {
+    font-size: 1.56em;
+  }
+
+  img.headerImg {
+    height: 25.5em;
+  }
+
+  div.roundButtonTickets {
+    width: 15em;
+    height: 15em;
+  }
+
+  div.roundButtonShop {
+    width: 12em;
+    height: 12em;
+    transform: translate(-10em, 4em);
+  }
+
+  a.roundButtonTickets {
+    font-size: 2em;
+    transform: translate(-0.2em, -0.3em);
+  }
+
+  a.roundButtonShop {
+    font-size: 2em;
+  }
+
+  img.logo {
+    width: 6.5em;
+  }
+
+  div.menuOverlay {
+    top: 8em;
+  }
+
+  iframe {
+    height: 30vw;
+  }
+}
+
+
+/*
+BREAKPOINT 4
+ */
+@media (min-width: 62em) {
+  main {
+    margin-top: 6em;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  div.menu {
+    display: flex;
+    order: 1;
+    flex-grow: 2;
+  }
+
+  div.menu ul {
+    width: 25em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  div.topHeader {
+    order: 2;
+    flex-grow: 2;
+  }
+
+  ul.languages {
+    order: 3;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  div.socialmedia {
+    order: 4;
+    flex-grow: 1;
+  }
+
+  div.menu ul li:nth-of-type(1) {
+    order: 1;
+  }
+
+  div.menu ul li:nth-of-type(2) {
+    order: 4;
+  }
+
+  div.menu ul li:nth-of-type(3) {
+    order: 2;
+  }
+
+  div.menu ul li:nth-of-type(4) {
+    order: 5;
+  }
+
+  div.menu ul li:nth-of-type(5) {
+    order: 3;
+  }
+
+  div.menu ul li:nth-of-type(6) {
+    order: 6;
+  }
+
+  ul {
+    border-top: none;
+  }
+
+  div.hamburger {
+    opacity: 0;
+    transition: all 0s;
+  }
+
+  article {
+    width: 40em;
+    padding: 4em 0em;
+  }
+
+  img.expoImg {
+    width: 40em;
+  }
+
+  div.menuOverlay {
+    top: 5em;
+  }
+
+  div.socialmediaHeading {
+    display: inline;
+  }
+
+  div.socialmediaHeading a {
+    transition: 0.5s;
+  }
+
+  div.socialmediaHeading a:hover {
+    color: white;
+    background-color: #ff81cb;
+    border: 1px solid #ff81cb;
+  }
+
+  iframe {
+    height: 25vw;
+  }
+}
+
+/* BRONNEN: https://css-tricks.com/a-complete-guide-to-css-media-queries/ */
+
+/*
+--------- EINDE MEDIA QUERIES -----------
+ */
