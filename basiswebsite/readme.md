@@ -12,6 +12,8 @@ https://marjoleindesmit.github.io/blokweb/
 
 
 ## Bronnenlijst
+Deze bronnen heb ik gebruikt tijdens het coderen van mijn website.
+
 1. https://fontsgeek.com/fonts/CaslonGraphiqueEF-Regular
 2. https://css-tricks.com/snippets/css/using-font-face/
 3. https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css
@@ -21,6 +23,8 @@ https://marjoleindesmit.github.io/blokweb/
 7. https://fontawesome.com/v4.7/icon/facebook en https://fontawesome.com/v4.7/icon/twitter en https://fontawesome.com/v4.7/icon/instagram voor social media icoontjes
 8. https://css-tricks.com/a-complete-guide-to-css-media-queries/
 9. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl
+10. https://www.javascripttutorial.net/dom/css/check-if-an-element-contains-a-class/
+11. https://www.codegrepper.com/code-examples/css/css+hover+change+color+of+another+element
 
 
 ## Breakdownschets (week 1)
@@ -110,22 +114,25 @@ Ik moet nu vooral de laatste details nog doen: bijv. een laatste beetje javascri
 
 
 
-## Voortgang 6 (10 jan - 16 jan)
+## Voortgang 6 (10 jan - 16 jan) (Eindgesprek)
 
-dit ging goed:
-dit was lastig:
+dit ging goed: hover animaties (op de social media iconen en de knoppen rechtsonder, etc.) 
+dit was lastig: ik liep best een tijdje vast met hoe ik er met javascript voor kon zorgen dat de overlay tevoorschijn kwam als het hamburger menu aangeklikt werd. Ook vond ik het lastig om te zorgen dat het logo op groot scherm (waar het hamburger menu verschijnt) nog steeds in het midden stond. Dit heb ik uiteindelijk op kunnen lossen met flex-grow. 
+
+Ik heb mijn best gedaan om de website zo goed mogelijk responsive te maken. Om dat te doen heb ik af en toe iets aangepast aan het originele ontwerp van MOCO, door bijvoorbeeld op groot scherm het hoofdmenu 2 rijen onder elkaar de ruimte te geven zodat het niet in de weg ging voor het logo (zoals soms op hun officiele website gebeurt). Ook heb ik ervoor gekozen om het taalkeuzemenu bij het één-na-grootste scherm nog onder het logo te laten i.p.v. ernaast, omdat door deze naast het logo te plaatsen er op de originele site ook problemen ontstaan met het in de weg zitten van het logo.
+Ook heb ik wat dingen qua groottes / afmetingen / witruimte anders vormgegeven, omdat ik sommige dingen op de officiele website bijv. te dicht bij elkaar vond staan.
 
 
-
-## Eindgesprek (week 7/8)
-
--dit ging goed & dit was lastig-
 
 **Screenshot(s):**
+-screenshot(s) van het eindresultaat 
 
-
--screenshot(s) van je eindresultaat-
-
+<img src="images/eindversie1.png" width="375px" alt="voortgang">
+<img src="images/eindversie2.png" width="375px" alt="voortgang">
+<img src="images/eindversie3.png" width="375px" alt="voortgang">
+<img src="images/eindversie4.png" width="375px" alt="voortgang">
+<img src="images/eindversie5.png" width="375px" alt="voortgang">
+<img src="images/eindversie6.png" width="375px" alt="voortgang">
 
 
 
