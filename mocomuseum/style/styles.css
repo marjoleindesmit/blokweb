@@ -76,7 +76,6 @@ div.hamburger {
   width: 1.44em;
   height: 1.06em;
   cursor: pointer;
-  transition: all 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,7 +204,6 @@ div.menuOverlay {
   bottom: 0;
   z-index: 20;
   top: 7em;
-  transition: opacity 0.5s;
 }
 
 div.menuOverlay ul {
@@ -432,6 +430,11 @@ a.readMore {
   margin: 0 auto;
   font-weight: bold;
   margin-top: 3em;
+  transition: 0.5s;
+}
+
+a.readMore:hover {
+  text-decoration: none;
 }
 
 a.theKidTickets {
